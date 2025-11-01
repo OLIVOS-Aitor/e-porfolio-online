@@ -170,14 +170,20 @@ input, select, textarea {
 	em, i {
 		font-style: italic;
 	}
-
+	/* Version de base */
+/*	
 	p {
-		text-align: justify; /* Ajout personnel */ /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 		margin: 0 0 2em 0;
 	}
-	/* Ajout personnel car le premier ne marche pas */
+*/
+	/* Ajout personnel */
+	p,
 	.content p {
 	  text-align: justify !important;
+	  margin: 0 0 2em 0; /* same bottom spacing */
+	  display: block; /* ensures proper behavior even inside flex/grid containers */
+	  line-height: 1.6; /* optional, improves readability */
+	  hyphens: auto; /* optional, better word wrapping */
 	}
 	/* Fin de l'ajout */
 
@@ -3932,6 +3938,7 @@ input, select, textarea {
     height: 100%;
     object-fit: contain; /* ou cover */
 }
+
 
 
 
