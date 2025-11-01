@@ -177,7 +177,7 @@ input, select, textarea {
 	}
 	/* Ajout personnel car le premier ne marche pas */
 	.content p {
-	  text-align: justify;
+	  text-align: justify !important;
 	}
 	/* Fin de l'ajout */
 
@@ -3932,6 +3932,7 @@ input, select, textarea {
     height: 100%;
     object-fit: contain; /* ou cover */
 }
+
 
 
 
