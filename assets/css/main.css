@@ -3926,18 +3926,8 @@ input, select, textarea {
     height: 100%;
     object-fit: contain; /* ou cover */
 }
-/* Ajout personnel pour le logo JE*/
 
-a.image.image-JE {
-  overflow: hidden; /* cache ce qui dépasse */
-}
 
-a.image.image-JE > img {
-  width: 100% !important;   /* force l'image à rentrer */
-  height: 100% !important;
-  object-fit: contain !important; /* ou cover si tu veux remplir en coupant */
-  display: block;
-}
 
 
 
