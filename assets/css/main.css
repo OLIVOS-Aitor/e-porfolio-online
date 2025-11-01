@@ -3927,11 +3927,17 @@ input, select, textarea {
     object-fit: contain; /* ou cover */
 }
 /* Ajout personnel pour le logo JE*/
-.image-JE img {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
+
+a.image.image-JE {
+  overflow: hidden; /* cache ce qui dépasse */
+}
+
+a.image.image-JE > img {
+  width: 100% !important;   /* force l'image à rentrer */
+  height: 100% !important;
+  object-fit: contain !important; /* ou cover si tu veux remplir en coupant */
   display: block;
 }
+
 
 
