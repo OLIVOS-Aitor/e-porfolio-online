@@ -3926,3 +3926,14 @@ input, select, textarea {
     height: 100%;
     object-fit: contain; /* ou cover */
 }
+/* Ajout personnel pour le logo JE*/
+.image-JE {
+  overflow: hidden; /* évite les débordements */
+}
+
+.image-JE img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
