@@ -175,6 +175,11 @@ input, select, textarea {
 		text-align: justify; /* Ajout personnel */ /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 		margin: 0 0 2em 0;
 	}
+	/* Ajout personnel car le premier ne marche pas */
+	.content p {
+	  text-align: justify;
+	}
+	/* Fin de l'ajout */
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
@@ -3927,6 +3932,7 @@ input, select, textarea {
     height: 100%;
     object-fit: contain; /* ou cover */
 }
+
 
 
 
