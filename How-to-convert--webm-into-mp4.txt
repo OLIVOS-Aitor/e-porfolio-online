@@ -1,0 +1,7 @@
+Il suffit d'utiliser le format (en bash) suivant :
+
+ffmpeg -i nom-original.webm -c:v libx264 -c:a aac nom-voulu.mp4
+
+Dans le cas du E-portfolio, on a :
+
+ffmpeg -i Pitch-Elevator-Video.webm -c:v libx264 -c:a aac Pitch-Elevator-Video.mp4
